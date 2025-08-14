@@ -4,3 +4,5 @@ pluginManagement {
         mavenCentral()
     }
 }
+rootProject.name = "Tiny Survivors Auto"
+include ':app'
