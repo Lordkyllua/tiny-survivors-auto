@@ -20,11 +20,11 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
 
-    - name: Grant execute permission for gradlew
-      run: chmod +x ./gradlew
+    # Se elimina la línea 'chmod +x ./gradlew' porque no se usa el script gradlew.
+    # El comando gradle ya tiene permisos de ejecución.
 
     - name: Build with Gradle
-      run: ./gradlew assembleRelease
+      run: gradle assembleRelease
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
