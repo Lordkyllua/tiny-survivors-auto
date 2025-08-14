@@ -19,8 +19,8 @@ jobs:
       with:
         java-version: '21'
         distribution: 'temurin'
-
-    # Se elimina el chmod +x ./gradlew ya que se usará el comando gradle global
+    
+    # Se eliminó la línea chmod, ya que se usa el comando 'gradle' global.
     
     - name: Build with Gradle
       run: gradle :app:assembleRelease
