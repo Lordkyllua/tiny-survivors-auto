@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Tiny Survivors Auto</string>
+    <string name="service_description">An accessibility service for Tiny Survivors Auto.</string>
+</resources>
